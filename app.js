@@ -3,7 +3,7 @@ const $=s=>document.querySelector(s),pads=[...document.querySelectorAll('.pad')]
 let ctx,master,analyser,bgmGain,samplesGain,buffers,loading,playing=false,muted=false,origin=0,next=0,timer,voices=[],energy=0,kick=0;
 const paths=['Restik bgm',...Array.from({length:5},(_,i)=>`Rest ${i+1}`)];
 async function init(){
- if(!ctx){ctx=new AudioContext();master=ctx.createGain();master.gain.value=.8;analyser=ctx.createAnalyser();analyser.fftSize=256;master.connect(analyser);analyser.connect(ctx.destination);bgmGain=ctx.createGain();bgmGain.gain.value=+$('#volume').value;bgmGain.connect(master);samplesGain=ctx.createGain();samplesGain.gain.value=.68;samplesGain.connect(master);}
+ if(!ctx){ctx=new AudioContext();master=ctx.createGain();master.gain.value=.8;analyser=ctx.createAnalyser();analyser.fftSize=256;master.connect(analyser);analyser.connect(ctx.destination);bgmGain=ctx.createGain();bgmGain.gain.value=+$('#volume').value;bgmGain.connect(master);samplesGain=ctx.createGain();samplesGain.gain.value=.7276;samplesGain.connect(master);}
  await ctx.resume();
  if(!loading)loading=Promise.all(paths.map(async name=>{const r=await fetch(`Samples/Restik/${encodeURIComponent(name)}.mp3`);if(!r.ok)throw Error('Не удалось загрузить '+name);return ctx.decodeAudioData(await r.arrayBuffer())})).then(b=>buffers=b).catch(e=>{loading=null;$('#status').textContent=e.message;throw e});
  return loading;
