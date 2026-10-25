@@ -2,7 +2,7 @@ const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypt
 const root=path.join(__dirname,'Samples');
 const sort=(a,b)=>a.localeCompare(b,'ru',{numeric:true,sensitivity:'base'});
 const preferred=['Teatr','Taxi','Restoran'];
-const labels={Teatr:'Театр',Taxi:'Такси',Restoran:'Рестик'};
+const labels={Teatr:'Театр',Taxi:'Такси',Restoran:'Ресторан'};
 const scenes=fs.readdirSync(root,{withFileTypes:true}).filter(x=>x.isDirectory()).map(x=>{
  const files=fs.readdirSync(path.join(root,x.name)).filter(f=>/\.(mp3|wav|ogg|m4a|flac)$/i.test(f)).sort(sort);
  const bgm=files.filter(f=>/bgm/i.test(f));
