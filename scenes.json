@@ -1,35 +1,37 @@
 [
   {
-    "name": "Restoran",
+    "folder": "Teatr",
+    "name": "Театр",
     "bgm": {
-      "name": "Restik bgm.mp3",
-      "url": "Samples/Restoran/Restik%20bgm.mp3?v=dd235d38d9bd"
+      "name": "Teatr bgm.mp3",
+      "url": "Samples/Teatr/Teatr%20bgm.mp3?v=b1253355ca58"
     },
     "samples": [
       {
-        "name": "Butilka.mp3",
-        "url": "Samples/Restoran/Butilka.mp3?v=7919e5631b86"
+        "name": "Chasy.mp3",
+        "url": "Samples/Teatr/Chasy.mp3?v=6ef6c62b66ad"
       },
       {
-        "name": "Flower.mp3",
-        "url": "Samples/Restoran/Flower.mp3?v=4641c99de3cd"
+        "name": "Gong.mp3",
+        "url": "Samples/Teatr/Gong.mp3?v=b4d19c9bed19"
       },
       {
-        "name": "Lampa.mp3",
-        "url": "Samples/Restoran/Lampa.mp3?v=9bcdab3fd512"
+        "name": "Pianino.mp3",
+        "url": "Samples/Teatr/Pianino.mp3?v=2f2e38e05dec"
       },
       {
-        "name": "Stakan.mp3",
-        "url": "Samples/Restoran/Stakan.mp3?v=b94e64e8bc05"
+        "name": "Rumki.mp3",
+        "url": "Samples/Teatr/Rumki.mp3?v=8a60a1d3c464"
       },
       {
-        "name": "Zvonok.mp3",
-        "url": "Samples/Restoran/Zvonok.mp3?v=e91346790b2e"
+        "name": "Svechki.mp3",
+        "url": "Samples/Teatr/Svechki.mp3?v=b43432541975"
       }
     ]
   },
   {
-    "name": "Taxi",
+    "folder": "Taxi",
+    "name": "Такси",
     "bgm": {
       "name": "Taxi bgm.mp3",
       "url": "Samples/Taxi/Taxi%20bgm.mp3?v=3800cb521ad5"
@@ -58,31 +60,32 @@
     ]
   },
   {
-    "name": "Teatr",
+    "folder": "Restoran",
+    "name": "Рестик",
     "bgm": {
-      "name": "Teatr bgm.mp3",
-      "url": "Samples/Teatr/Teatr%20bgm.mp3?v=e4b20468bc96"
+      "name": "Restik bgm.mp3",
+      "url": "Samples/Restoran/Restik%20bgm.mp3?v=11e56392e5e6"
     },
     "samples": [
       {
-        "name": "Chasy.mp3",
-        "url": "Samples/Teatr/Chasy.mp3?v=6ef6c62b66ad"
+        "name": "Butilka.mp3",
+        "url": "Samples/Restoran/Butilka.mp3?v=dba5552f89d6"
       },
       {
-        "name": "Gong.mp3",
-        "url": "Samples/Teatr/Gong.mp3?v=b4d19c9bed19"
+        "name": "Flower.mp3",
+        "url": "Samples/Restoran/Flower.mp3?v=263b5ea62cc0"
       },
       {
-        "name": "Pianino.mp3",
-        "url": "Samples/Teatr/Pianino.mp3?v=2f2e38e05dec"
+        "name": "Lampa.mp3",
+        "url": "Samples/Restoran/Lampa.mp3?v=ad6595383024"
       },
       {
-        "name": "Rumki.mp3",
-        "url": "Samples/Teatr/Rumki.mp3?v=8a60a1d3c464"
+        "name": "Stakan.mp3",
+        "url": "Samples/Restoran/Stakan.mp3?v=4dd2e973d153"
       },
       {
-        "name": "Svechki.mp3",
-        "url": "Samples/Teatr/Svechki.mp3?v=b43432541975"
+        "name": "Zvonok.mp3",
+        "url": "Samples/Restoran/Zvonok.mp3?v=b3c8b893ca2b"
       }
     ]
   }
