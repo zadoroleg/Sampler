@@ -1,1 +1,1 @@
-{"name":"supreme-sampler","version":"1.0.0","private":true,"scripts":{"start":"node server.cjs","check":"node --check app.js && node --check server.cjs"}}
+{"name":"supreme-sampler","version":"1.0.0","private":true,"scripts":{"scenes":"node build-scenes.cjs","prestart":"node build-scenes.cjs","start":"node server.cjs","check":"node --check app.js && node --check server.cjs && node --check build-scenes.cjs"}}
