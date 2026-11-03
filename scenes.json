@@ -12,6 +12,10 @@
         "url": "Samples/Lobby/Click.mp3?v=1e3e92634d4f"
       },
       {
+        "name": "Hover.mp3",
+        "url": "Samples/Lobby/Hover.mp3?v=5e216dc4a858"
+      },
+      {
         "name": "Lobby Hover.mp3",
         "url": "Samples/Lobby/Lobby%20Hover.mp3?v=b1014f1e32ef"
       },
